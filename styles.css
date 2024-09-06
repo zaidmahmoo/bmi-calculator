@@ -5,7 +5,32 @@ body {
     padding: 0;
 }
 
+/* تنسيق رأس الصفحة */
+header {
+    background-color: #4CAF50; /* لون الخلفية */
+    color: #FFFFFF; /* لون النص */
+    text-align: center;
+    padding: 0;
+    line-height: 0.2em;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    font-size: 1.5rem; /* حجم الخط */
+    font-weight: bold; /* سمك الخط */
+}
+
+/* توسيط المحتوى */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 .container {
+    margin-top: 60px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
